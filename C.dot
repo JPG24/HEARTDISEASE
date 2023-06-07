@@ -1,0 +1,1905 @@
+digraph Tree {
+node [shape=box, style=filled, fillcolor="#FFFFFF"] ;0 [color="#F4B80A", label="exang
+{0: 252, 1: 146, 2: 58, 3: 47, 4: 15}
+[214, 304]"]
+1 [color="#F4B80A", label="cp
+{0: 42, 1: 87, 2: 38, 3: 37, 4: 10}
+[176, 23, 12, 3]"]
+2 [color="#F4B80A", label="age
+{0: 22, 1: 80, 2: 33, 3: 32, 4: 9}
+[54, 50, 47, 25]"]
+3 [color="#F4B80A", label="sex
+{0: 4, 1: 15, 2: 15, 3: 13, 4: 7}
+[46, 8]"]
+4 [color="#F4B80A", label="thalach
+{0: 2, 1: 11, 2: 15, 3: 11, 4: 7}
+[1, 16, 29]"]
+5 [color="#008000", label="3
+{3: 1}
+[1]"]
+4 -> 5 [labeldistance=2.5, labelangle=45, headlabel="2"]
+6 [color="#F4B80A", label="chol
+{1: 2, 2: 11, 3: 1, 4: 2}
+[5, 4, 7]"]
+7 [color="#F4B80A", label="restecg
+{2: 4, 4: 1}
+[1, 1, 3]"]
+8 [color="#008000", label="4
+{4: 1}
+[1]"]
+7 -> 8 [labeldistance=2.5, labelangle=45, headlabel="2"]
+9 [color="#008000", label="2
+{2: 1}
+[1]"]
+7 -> 9 [labeldistance=2.5, labelangle=45, headlabel="1"]
+10 [color="#008000", label="2
+{2: 3}
+[3]"]
+7 -> 10 [labeldistance=2.5, labelangle=45, headlabel="0"]
+6 -> 7 [labeldistance=2.5, labelangle=45, headlabel="2"]
+11 [color="#F4B80A", label="trestbps
+{2: 3, 4: 1}
+[1, 1, 2]"]
+12 [color="#008000", label="2
+{2: 1}
+[1]"]
+11 -> 12 [labeldistance=2.5, labelangle=45, headlabel="2"]
+13 [color="#008000", label="4
+{4: 1}
+[1]"]
+11 -> 13 [labeldistance=2.5, labelangle=45, headlabel="1"]
+14 [color="#008000", label="2
+{2: 2}
+[2]"]
+11 -> 14 [labeldistance=2.5, labelangle=45, headlabel="0"]
+6 -> 11 [labeldistance=2.5, labelangle=45, headlabel="1"]
+15 [color="#F4B80A", label="oldpeak
+{1: 2, 2: 4, 3: 1}
+[5, 1, 1]"]
+16 [color="#F4B80A", label="restecg
+{1: 1, 2: 3, 3: 1}
+[2, 2, 1]"]
+17 [color="#F4B80A", label="trestbps
+{1: 1, 2: 1}
+[2]"]
+18 [color="#008000", label="1
+{1: 1, 2: 1}
+[2]"]
+17 -> 18 [labeldistance=2.5, labelangle=45, headlabel="1"]
+16 -> 17 [labeldistance=2.5, labelangle=45, headlabel="2"]
+19 [color="#F4B80A", label="trestbps
+{2: 1, 3: 1}
+[1, 1]"]
+20 [color="#008000", label="2
+{2: 1}
+[1]"]
+19 -> 20 [labeldistance=2.5, labelangle=45, headlabel="2"]
+21 [color="#008000", label="3
+{3: 1}
+[1]"]
+19 -> 21 [labeldistance=2.5, labelangle=45, headlabel="1"]
+16 -> 19 [labeldistance=2.5, labelangle=45, headlabel="1"]
+22 [color="#008000", label="2
+{2: 1}
+[1]"]
+16 -> 22 [labeldistance=2.5, labelangle=45, headlabel="0"]
+15 -> 16 [labeldistance=2.5, labelangle=45, headlabel="2"]
+23 [color="#008000", label="2
+{2: 1}
+[1]"]
+15 -> 23 [labeldistance=2.5, labelangle=45, headlabel="1"]
+24 [color="#008000", label="1
+{1: 1}
+[1]"]
+15 -> 24 [labeldistance=2.5, labelangle=45, headlabel="0"]
+6 -> 15 [labeldistance=2.5, labelangle=45, headlabel="0"]
+4 -> 6 [labeldistance=2.5, labelangle=45, headlabel="1"]
+25 [color="#F4B80A", label="oldpeak
+{0: 2, 1: 9, 2: 4, 3: 9, 4: 5}
+[16, 7, 6]"]
+26 [color="#F4B80A", label="fbs
+{1: 3, 2: 4, 3: 4, 4: 5}
+[3, 13]"]
+27 [color="#F4B80A", label="restecg
+{1: 2, 4: 1}
+[1, 2]"]
+28 [color="#008000", label="4
+{4: 1}
+[1]"]
+27 -> 28 [labeldistance=2.5, labelangle=45, headlabel="1"]
+29 [color="#008000", label="1
+{1: 2}
+[2]"]
+27 -> 29 [labeldistance=2.5, labelangle=45, headlabel="0"]
+26 -> 27 [labeldistance=2.5, labelangle=45, headlabel="1"]
+30 [color="#F4B80A", label="chol
+{1: 1, 2: 4, 3: 4, 4: 4}
+[5, 2, 6]"]
+31 [color="#F4B80A", label="trestbps
+{1: 1, 2: 3, 4: 1}
+[2, 2, 1]"]
+32 [color="#008000", label="2
+{2: 2}
+[2]"]
+31 -> 32 [labeldistance=2.5, labelangle=45, headlabel="2"]
+33 [color="#008000", label="2
+{2: 1, 4: 1}
+[2]"]
+31 -> 33 [labeldistance=2.5, labelangle=45, headlabel="1"]
+34 [color="#008000", label="1
+{1: 1}
+[1]"]
+31 -> 34 [labeldistance=2.5, labelangle=45, headlabel="0"]
+30 -> 31 [labeldistance=2.5, labelangle=45, headlabel="2"]
+35 [color="#008000", label="3
+{3: 2}
+[2]"]
+30 -> 35 [labeldistance=2.5, labelangle=45, headlabel="1"]
+36 [color="#F4B80A", label="trestbps
+{2: 1, 3: 2, 4: 3}
+[5, 1]"]
+37 [color="#008000", label="3
+{2: 1, 3: 2, 4: 2}
+[5]"]
+36 -> 37 [labeldistance=2.5, labelangle=45, headlabel="2"]
+38 [color="#008000", label="4
+{4: 1}
+[1]"]
+36 -> 38 [labeldistance=2.5, labelangle=45, headlabel="1"]
+30 -> 36 [labeldistance=2.5, labelangle=45, headlabel="0"]
+26 -> 30 [labeldistance=2.5, labelangle=45, headlabel="0"]
+25 -> 26 [labeldistance=2.5, labelangle=45, headlabel="2"]
+39 [color="#F4B80A", label="trestbps
+{0: 1, 1: 3, 3: 3}
+[2, 2, 3]"]
+40 [color="#008000", label="3
+{3: 2}
+[2]"]
+39 -> 40 [labeldistance=2.5, labelangle=45, headlabel="2"]
+41 [color="#F4B80A", label="restecg
+{0: 1, 1: 1}
+[1, 1]"]
+42 [color="#008000", label="1
+{1: 1}
+[1]"]
+41 -> 42 [labeldistance=2.5, labelangle=45, headlabel="1"]
+43 [color="#008000", label="0
+{0: 1}
+[1]"]
+41 -> 43 [labeldistance=2.5, labelangle=45, headlabel="0"]
+39 -> 41 [labeldistance=2.5, labelangle=45, headlabel="1"]
+44 [color="#F4B80A", label="restecg
+{1: 2, 3: 1}
+[1, 1, 1]"]
+45 [color="#008000", label="3
+{3: 1}
+[1]"]
+44 -> 45 [labeldistance=2.5, labelangle=45, headlabel="2"]
+46 [color="#008000", label="1
+{1: 1}
+[1]"]
+44 -> 46 [labeldistance=2.5, labelangle=45, headlabel="1"]
+47 [color="#008000", label="1
+{1: 1}
+[1]"]
+44 -> 47 [labeldistance=2.5, labelangle=45, headlabel="0"]
+39 -> 44 [labeldistance=2.5, labelangle=45, headlabel="0"]
+25 -> 39 [labeldistance=2.5, labelangle=45, headlabel="1"]
+48 [color="#F4B80A", label="chol
+{0: 1, 1: 3, 3: 2}
+[1, 1, 4]"]
+49 [color="#008000", label="0
+{0: 1}
+[1]"]
+48 -> 49 [labeldistance=2.5, labelangle=45, headlabel="2"]
+50 [color="#008000", label="3
+{3: 1}
+[1]"]
+48 -> 50 [labeldistance=2.5, labelangle=45, headlabel="1"]
+51 [color="#F4B80A", label="trestbps
+{1: 3, 3: 1}
+[1, 1, 2]"]
+52 [color="#008000", label="1
+{1: 1}
+[1]"]
+51 -> 52 [labeldistance=2.5, labelangle=45, headlabel="2"]
+53 [color="#008000", label="3
+{3: 1}
+[1]"]
+51 -> 53 [labeldistance=2.5, labelangle=45, headlabel="1"]
+54 [color="#008000", label="1
+{1: 2}
+[2]"]
+51 -> 54 [labeldistance=2.5, labelangle=45, headlabel="0"]
+48 -> 51 [labeldistance=2.5, labelangle=45, headlabel="0"]
+25 -> 48 [labeldistance=2.5, labelangle=45, headlabel="0"]
+4 -> 25 [labeldistance=2.5, labelangle=45, headlabel="0"]
+3 -> 4 [labeldistance=2.5, labelangle=45, headlabel="1"]
+55 [color="#F4B80A", label="fbs
+{0: 2, 1: 4, 3: 2}
+[1, 7]"]
+56 [color="#008000", label="3
+{3: 1}
+[1]"]
+55 -> 56 [labeldistance=2.5, labelangle=45, headlabel="1"]
+57 [color="#F4B80A", label="restecg
+{0: 2, 1: 4, 3: 1}
+[1, 6]"]
+58 [color="#008000", label="0
+{0: 1}
+[1]"]
+57 -> 58 [labeldistance=2.5, labelangle=45, headlabel="1"]
+59 [color="#F4B80A", label="oldpeak
+{0: 1, 1: 4, 3: 1}
+[2, 2, 2]"]
+60 [color="#008000", label="1
+{1: 2}
+[2]"]
+59 -> 60 [labeldistance=2.5, labelangle=45, headlabel="2"]
+61 [color="#F4B80A", label="chol
+{1: 1, 3: 1}
+[1, 1]"]
+62 [color="#008000", label="1
+{1: 1}
+[1]"]
+61 -> 62 [labeldistance=2.5, labelangle=45, headlabel="2"]
+63 [color="#008000", label="3
+{3: 1}
+[1]"]
+61 -> 63 [labeldistance=2.5, labelangle=45, headlabel="0"]
+59 -> 61 [labeldistance=2.5, labelangle=45, headlabel="1"]
+64 [color="#F4B80A", label="trestbps
+{0: 1, 1: 1}
+[1, 1]"]
+65 [color="#008000", label="0
+{0: 1}
+[1]"]
+64 -> 65 [labeldistance=2.5, labelangle=45, headlabel="2"]
+66 [color="#008000", label="1
+{1: 1}
+[1]"]
+64 -> 66 [labeldistance=2.5, labelangle=45, headlabel="1"]
+59 -> 64 [labeldistance=2.5, labelangle=45, headlabel="0"]
+57 -> 59 [labeldistance=2.5, labelangle=45, headlabel="0"]
+55 -> 57 [labeldistance=2.5, labelangle=45, headlabel="0"]
+3 -> 55 [labeldistance=2.5, labelangle=45, headlabel="0"]
+2 -> 3 [labeldistance=2.5, labelangle=45, headlabel="4"]
+67 [color="#F4B80A", label="thalach
+{0: 7, 1: 21, 2: 10, 3: 10, 4: 2}
+[4, 21, 25]"]
+68 [color="#F4B80A", label="chol
+{0: 3, 2: 1}
+[2, 2]"]
+69 [color="#008000", label="0
+{0: 2}
+[2]"]
+68 -> 69 [labeldistance=2.5, labelangle=45, headlabel="2"]
+70 [color="#F4B80A", label="sex
+{0: 1, 2: 1}
+[2]"]
+71 [color="#F4B80A", label="trestbps
+{0: 1, 2: 1}
+[2]"]
+72 [color="#008000", label="0
+{0: 1, 2: 1}
+[2]"]
+71 -> 72 [labeldistance=2.5, labelangle=45, headlabel="1"]
+70 -> 71 [labeldistance=2.5, labelangle=45, headlabel="1"]
+68 -> 70 [labeldistance=2.5, labelangle=45, headlabel="0"]
+67 -> 68 [labeldistance=2.5, labelangle=45, headlabel="2"]
+73 [color="#F4B80A", label="trestbps
+{0: 1, 1: 8, 2: 6, 3: 4, 4: 2}
+[5, 12, 4]"]
+74 [color="#F4B80A", label="restecg
+{1: 1, 2: 2, 3: 1, 4: 1}
+[4, 1]"]
+75 [color="#F4B80A", label="oldpeak
+{2: 2, 3: 1, 4: 1}
+[3, 1]"]
+76 [color="#F4B80A", label="sex
+{2: 2, 3: 1}
+[1, 2]"]
+77 [color="#008000", label="2
+{2: 1}
+[1]"]
+76 -> 77 [labeldistance=2.5, labelangle=45, headlabel="1"]
+78 [color="#F4B80A", label="chol
+{2: 1, 3: 1}
+[1, 1]"]
+79 [color="#008000", label="3
+{3: 1}
+[1]"]
+78 -> 79 [labeldistance=2.5, labelangle=45, headlabel="2"]
+80 [color="#008000", label="2
+{2: 1}
+[1]"]
+78 -> 80 [labeldistance=2.5, labelangle=45, headlabel="1"]
+76 -> 78 [labeldistance=2.5, labelangle=45, headlabel="0"]
+75 -> 76 [labeldistance=2.5, labelangle=45, headlabel="2"]
+81 [color="#008000", label="4
+{4: 1}
+[1]"]
+75 -> 81 [labeldistance=2.5, labelangle=45, headlabel="1"]
+74 -> 75 [labeldistance=2.5, labelangle=45, headlabel="2"]
+82 [color="#008000", label="1
+{1: 1}
+[1]"]
+74 -> 82 [labeldistance=2.5, labelangle=45, headlabel="1"]
+73 -> 74 [labeldistance=2.5, labelangle=45, headlabel="2"]
+83 [color="#F4B80A", label="fbs
+{1: 6, 2: 2, 3: 3, 4: 1}
+[2, 10]"]
+84 [color="#008000", label="1
+{1: 2}
+[2]"]
+83 -> 84 [labeldistance=2.5, labelangle=45, headlabel="1"]
+85 [color="#F4B80A", label="restecg
+{1: 4, 2: 2, 3: 3, 4: 1}
+[4, 2, 4]"]
+86 [color="#F4B80A", label="sex
+{1: 1, 2: 1, 3: 1, 4: 1}
+[3, 1]"]
+87 [color="#F4B80A", label="chol
+{1: 1, 3: 1, 4: 1}
+[1, 1, 1]"]
+88 [color="#008000", label="3
+{3: 1}
+[1]"]
+87 -> 88 [labeldistance=2.5, labelangle=45, headlabel="2"]
+89 [color="#008000", label="1
+{1: 1}
+[1]"]
+87 -> 89 [labeldistance=2.5, labelangle=45, headlabel="1"]
+90 [color="#008000", label="4
+{4: 1}
+[1]"]
+87 -> 90 [labeldistance=2.5, labelangle=45, headlabel="0"]
+86 -> 87 [labeldistance=2.5, labelangle=45, headlabel="1"]
+91 [color="#008000", label="2
+{2: 1}
+[1]"]
+86 -> 91 [labeldistance=2.5, labelangle=45, headlabel="0"]
+85 -> 86 [labeldistance=2.5, labelangle=45, headlabel="2"]
+92 [color="#F4B80A", label="sex
+{2: 1, 3: 1}
+[1, 1]"]
+93 [color="#008000", label="2
+{2: 1}
+[1]"]
+92 -> 93 [labeldistance=2.5, labelangle=45, headlabel="1"]
+94 [color="#008000", label="3
+{3: 1}
+[1]"]
+92 -> 94 [labeldistance=2.5, labelangle=45, headlabel="0"]
+85 -> 92 [labeldistance=2.5, labelangle=45, headlabel="1"]
+95 [color="#F4B80A", label="chol
+{1: 3, 3: 1}
+[1, 2, 1]"]
+96 [color="#008000", label="1
+{1: 1}
+[1]"]
+95 -> 96 [labeldistance=2.5, labelangle=45, headlabel="2"]
+97 [color="#F4B80A", label="sex
+{1: 1, 3: 1}
+[2]"]
+98 [color="#008000", label="1
+{1: 1, 3: 1}
+[2]"]
+97 -> 98 [labeldistance=2.5, labelangle=45, headlabel="1"]
+95 -> 97 [labeldistance=2.5, labelangle=45, headlabel="1"]
+99 [color="#008000", label="1
+{1: 1}
+[1]"]
+95 -> 99 [labeldistance=2.5, labelangle=45, headlabel="0"]
+85 -> 95 [labeldistance=2.5, labelangle=45, headlabel="0"]
+83 -> 85 [labeldistance=2.5, labelangle=45, headlabel="0"]
+73 -> 83 [labeldistance=2.5, labelangle=45, headlabel="1"]
+100 [color="#F4B80A", label="chol
+{0: 1, 1: 1, 2: 2}
+[1, 2, 1]"]
+101 [color="#008000", label="2
+{2: 1}
+[1]"]
+100 -> 101 [labeldistance=2.5, labelangle=45, headlabel="2"]
+102 [color="#F4B80A", label="oldpeak
+{1: 1, 2: 1}
+[1, 1]"]
+103 [color="#008000", label="1
+{1: 1}
+[1]"]
+102 -> 103 [labeldistance=2.5, labelangle=45, headlabel="2"]
+104 [color="#008000", label="2
+{2: 1}
+[1]"]
+102 -> 104 [labeldistance=2.5, labelangle=45, headlabel="1"]
+100 -> 102 [labeldistance=2.5, labelangle=45, headlabel="1"]
+105 [color="#008000", label="0
+{0: 1}
+[1]"]
+100 -> 105 [labeldistance=2.5, labelangle=45, headlabel="0"]
+73 -> 100 [labeldistance=2.5, labelangle=45, headlabel="0"]
+67 -> 73 [labeldistance=2.5, labelangle=45, headlabel="1"]
+106 [color="#F4B80A", label="sex
+{0: 3, 1: 13, 2: 3, 3: 6}
+[23, 2]"]
+107 [color="#F4B80A", label="oldpeak
+{0: 2, 1: 12, 2: 3, 3: 6}
+[10, 9, 4]"]
+108 [color="#F4B80A", label="trestbps
+{1: 6, 2: 2, 3: 2}
+[6, 2, 2]"]
+109 [color="#F4B80A", label="chol
+{1: 4, 2: 1, 3: 1}
+[1, 4, 1]"]
+110 [color="#008000", label="1
+{1: 1}
+[1]"]
+109 -> 110 [labeldistance=2.5, labelangle=45, headlabel="2"]
+111 [color="#F4B80A", label="restecg
+{1: 3, 2: 1}
+[1, 3]"]
+112 [color="#008000", label="1
+{1: 1}
+[1]"]
+111 -> 112 [labeldistance=2.5, labelangle=45, headlabel="1"]
+113 [color="#008000", label="1
+{1: 2, 2: 1}
+[3]"]
+111 -> 113 [labeldistance=2.5, labelangle=45, headlabel="0"]
+109 -> 111 [labeldistance=2.5, labelangle=45, headlabel="1"]
+114 [color="#008000", label="3
+{3: 1}
+[1]"]
+109 -> 114 [labeldistance=2.5, labelangle=45, headlabel="0"]
+108 -> 109 [labeldistance=2.5, labelangle=45, headlabel="2"]
+115 [color="#F4B80A", label="restecg
+{2: 1, 3: 1}
+[1, 1]"]
+116 [color="#008000", label="2
+{2: 1}
+[1]"]
+115 -> 116 [labeldistance=2.5, labelangle=45, headlabel="1"]
+117 [color="#008000", label="3
+{3: 1}
+[1]"]
+115 -> 117 [labeldistance=2.5, labelangle=45, headlabel="0"]
+108 -> 115 [labeldistance=2.5, labelangle=45, headlabel="1"]
+118 [color="#008000", label="1
+{1: 2}
+[2]"]
+108 -> 118 [labeldistance=2.5, labelangle=45, headlabel="0"]
+107 -> 108 [labeldistance=2.5, labelangle=45, headlabel="2"]
+119 [color="#F4B80A", label="trestbps
+{0: 1, 1: 4, 3: 4}
+[6, 3]"]
+120 [color="#F4B80A", label="restecg
+{1: 3, 3: 3}
+[3, 1, 2]"]
+121 [color="#F4B80A", label="chol
+{1: 1, 3: 2}
+[2, 1]"]
+122 [color="#008000", label="1
+{1: 1, 3: 1}
+[2]"]
+121 -> 122 [labeldistance=2.5, labelangle=45, headlabel="2"]
+123 [color="#008000", label="3
+{3: 1}
+[1]"]
+121 -> 123 [labeldistance=2.5, labelangle=45, headlabel="1"]
+120 -> 121 [labeldistance=2.5, labelangle=45, headlabel="2"]
+124 [color="#008000", label="3
+{3: 1}
+[1]"]
+120 -> 124 [labeldistance=2.5, labelangle=45, headlabel="1"]
+125 [color="#008000", label="1
+{1: 2}
+[2]"]
+120 -> 125 [labeldistance=2.5, labelangle=45, headlabel="0"]
+119 -> 120 [labeldistance=2.5, labelangle=45, headlabel="2"]
+126 [color="#F4B80A", label="chol
+{0: 1, 1: 1, 3: 1}
+[1, 2]"]
+127 [color="#008000", label="0
+{0: 1}
+[1]"]
+126 -> 127 [labeldistance=2.5, labelangle=45, headlabel="1"]
+128 [color="#F4B80A", label="restecg
+{1: 1, 3: 1}
+[1, 1]"]
+129 [color="#008000", label="1
+{1: 1}
+[1]"]
+128 -> 129 [labeldistance=2.5, labelangle=45, headlabel="1"]
+130 [color="#008000", label="3
+{3: 1}
+[1]"]
+128 -> 130 [labeldistance=2.5, labelangle=45, headlabel="0"]
+126 -> 128 [labeldistance=2.5, labelangle=45, headlabel="0"]
+119 -> 126 [labeldistance=2.5, labelangle=45, headlabel="1"]
+107 -> 119 [labeldistance=2.5, labelangle=45, headlabel="1"]
+131 [color="#F4B80A", label="fbs
+{0: 1, 1: 2, 2: 1}
+[2, 2]"]
+132 [color="#008000", label="1
+{1: 2}
+[2]"]
+131 -> 132 [labeldistance=2.5, labelangle=45, headlabel="1"]
+133 [color="#F4B80A", label="trestbps
+{0: 1, 2: 1}
+[1, 1]"]
+134 [color="#008000", label="0
+{0: 1}
+[1]"]
+133 -> 134 [labeldistance=2.5, labelangle=45, headlabel="2"]
+135 [color="#008000", label="2
+{2: 1}
+[1]"]
+133 -> 135 [labeldistance=2.5, labelangle=45, headlabel="0"]
+131 -> 133 [labeldistance=2.5, labelangle=45, headlabel="0"]
+107 -> 131 [labeldistance=2.5, labelangle=45, headlabel="0"]
+106 -> 107 [labeldistance=2.5, labelangle=45, headlabel="1"]
+136 [color="#F4B80A", label="trestbps
+{0: 1, 1: 1}
+[1, 1]"]
+137 [color="#008000", label="0
+{0: 1}
+[1]"]
+136 -> 137 [labeldistance=2.5, labelangle=45, headlabel="2"]
+138 [color="#008000", label="1
+{1: 1}
+[1]"]
+136 -> 138 [labeldistance=2.5, labelangle=45, headlabel="1"]
+106 -> 136 [labeldistance=2.5, labelangle=45, headlabel="0"]
+67 -> 106 [labeldistance=2.5, labelangle=45, headlabel="0"]
+2 -> 67 [labeldistance=2.5, labelangle=45, headlabel="2"]
+139 [color="#F4B80A", label="thalach
+{0: 8, 1: 28, 2: 3, 3: 8}
+[4, 11, 32]"]
+140 [color="#F4B80A", label="fbs
+{0: 1, 1: 2, 2: 1}
+[1, 3]"]
+141 [color="#008000", label="2
+{2: 1}
+[1]"]
+140 -> 141 [labeldistance=2.5, labelangle=45, headlabel="1"]
+142 [color="#F4B80A", label="restecg
+{0: 1, 1: 2}
+[1, 1, 1]"]
+143 [color="#008000", label="0
+{0: 1}
+[1]"]
+142 -> 143 [labeldistance=2.5, labelangle=45, headlabel="2"]
+144 [color="#008000", label="1
+{1: 1}
+[1]"]
+142 -> 144 [labeldistance=2.5, labelangle=45, headlabel="1"]
+145 [color="#008000", label="1
+{1: 1}
+[1]"]
+142 -> 145 [labeldistance=2.5, labelangle=45, headlabel="0"]
+140 -> 142 [labeldistance=2.5, labelangle=45, headlabel="0"]
+139 -> 140 [labeldistance=2.5, labelangle=45, headlabel="2"]
+146 [color="#F4B80A", label="fbs
+{0: 3, 1: 4, 2: 2, 3: 2}
+[3, 8]"]
+147 [color="#F4B80A", label="trestbps
+{1: 1, 3: 2}
+[1, 1, 1]"]
+148 [color="#008000", label="3
+{3: 1}
+[1]"]
+147 -> 148 [labeldistance=2.5, labelangle=45, headlabel="2"]
+149 [color="#008000", label="3
+{3: 1}
+[1]"]
+147 -> 149 [labeldistance=2.5, labelangle=45, headlabel="1"]
+150 [color="#008000", label="1
+{1: 1}
+[1]"]
+147 -> 150 [labeldistance=2.5, labelangle=45, headlabel="0"]
+146 -> 147 [labeldistance=2.5, labelangle=45, headlabel="1"]
+151 [color="#F4B80A", label="restecg
+{0: 3, 1: 3, 2: 2}
+[1, 7]"]
+152 [color="#008000", label="2
+{2: 1}
+[1]"]
+151 -> 152 [labeldistance=2.5, labelangle=45, headlabel="2"]
+153 [color="#F4B80A", label="chol
+{0: 3, 1: 3, 2: 1}
+[3, 3, 1]"]
+154 [color="#F4B80A", label="sex
+{1: 2, 2: 1}
+[1, 2]"]
+155 [color="#008000", label="1
+{1: 1}
+[1]"]
+154 -> 155 [labeldistance=2.5, labelangle=45, headlabel="1"]
+156 [color="#F4B80A", label="trestbps
+{1: 1, 2: 1}
+[1, 1]"]
+157 [color="#008000", label="1
+{1: 1}
+[1]"]
+156 -> 157 [labeldistance=2.5, labelangle=45, headlabel="2"]
+158 [color="#008000", label="2
+{2: 1}
+[1]"]
+156 -> 158 [labeldistance=2.5, labelangle=45, headlabel="1"]
+154 -> 156 [labeldistance=2.5, labelangle=45, headlabel="0"]
+153 -> 154 [labeldistance=2.5, labelangle=45, headlabel="2"]
+159 [color="#F4B80A", label="trestbps
+{0: 2, 1: 1}
+[2, 1]"]
+160 [color="#008000", label="0
+{0: 2}
+[2]"]
+159 -> 160 [labeldistance=2.5, labelangle=45, headlabel="2"]
+161 [color="#008000", label="1
+{1: 1}
+[1]"]
+159 -> 161 [labeldistance=2.5, labelangle=45, headlabel="1"]
+153 -> 159 [labeldistance=2.5, labelangle=45, headlabel="1"]
+162 [color="#008000", label="0
+{0: 1}
+[1]"]
+153 -> 162 [labeldistance=2.5, labelangle=45, headlabel="0"]
+151 -> 153 [labeldistance=2.5, labelangle=45, headlabel="0"]
+146 -> 151 [labeldistance=2.5, labelangle=45, headlabel="0"]
+139 -> 146 [labeldistance=2.5, labelangle=45, headlabel="1"]
+163 [color="#F4B80A", label="fbs
+{0: 4, 1: 22, 3: 6}
+[1, 31]"]
+164 [color="#008000", label="0
+{0: 1}
+[1]"]
+163 -> 164 [labeldistance=2.5, labelangle=45, headlabel="1"]
+165 [color="#F4B80A", label="sex
+{0: 3, 1: 22, 3: 6}
+[27, 4]"]
+166 [color="#F4B80A", label="restecg
+{0: 2, 1: 19, 3: 6}
+[6, 5, 16]"]
+167 [color="#F4B80A", label="chol
+{0: 1, 1: 3, 3: 2}
+[3, 1, 2]"]
+168 [color="#008000", label="1
+{1: 3}
+[3]"]
+167 -> 168 [labeldistance=2.5, labelangle=45, headlabel="2"]
+169 [color="#008000", label="0
+{0: 1}
+[1]"]
+167 -> 169 [labeldistance=2.5, labelangle=45, headlabel="1"]
+170 [color="#008000", label="3
+{3: 2}
+[2]"]
+167 -> 170 [labeldistance=2.5, labelangle=45, headlabel="0"]
+166 -> 167 [labeldistance=2.5, labelangle=45, headlabel="2"]
+171 [color="#F4B80A", label="trestbps
+{0: 1, 1: 4}
+[2, 2, 1]"]
+172 [color="#008000", label="1
+{1: 2}
+[2]"]
+171 -> 172 [labeldistance=2.5, labelangle=45, headlabel="2"]
+173 [color="#008000", label="0
+{0: 1, 1: 1}
+[2]"]
+171 -> 173 [labeldistance=2.5, labelangle=45, headlabel="1"]
+174 [color="#008000", label="1
+{1: 1}
+[1]"]
+171 -> 174 [labeldistance=2.5, labelangle=45, headlabel="0"]
+166 -> 171 [labeldistance=2.5, labelangle=45, headlabel="1"]
+175 [color="#F4B80A", label="trestbps
+{1: 12, 3: 4}
+[5, 8, 3]"]
+176 [color="#008000", label="1
+{1: 5}
+[5]"]
+175 -> 176 [labeldistance=2.5, labelangle=45, headlabel="2"]
+177 [color="#F4B80A", label="chol
+{1: 6, 3: 2}
+[4, 4]"]
+178 [color="#008000", label="1
+{1: 2, 3: 2}
+[4]"]
+177 -> 178 [labeldistance=2.5, labelangle=45, headlabel="2"]
+179 [color="#008000", label="1
+{1: 4}
+[4]"]
+177 -> 179 [labeldistance=2.5, labelangle=45, headlabel="1"]
+175 -> 177 [labeldistance=2.5, labelangle=45, headlabel="1"]
+180 [color="#F4B80A", label="oldpeak
+{1: 1, 3: 2}
+[1, 1, 1]"]
+181 [color="#008000", label="3
+{3: 1}
+[1]"]
+180 -> 181 [labeldistance=2.5, labelangle=45, headlabel="2"]
+182 [color="#008000", label="3
+{3: 1}
+[1]"]
+180 -> 182 [labeldistance=2.5, labelangle=45, headlabel="1"]
+183 [color="#008000", label="1
+{1: 1}
+[1]"]
+180 -> 183 [labeldistance=2.5, labelangle=45, headlabel="0"]
+175 -> 180 [labeldistance=2.5, labelangle=45, headlabel="0"]
+166 -> 175 [labeldistance=2.5, labelangle=45, headlabel="0"]
+165 -> 166 [labeldistance=2.5, labelangle=45, headlabel="1"]
+184 [color="#F4B80A", label="oldpeak
+{0: 1, 1: 3}
+[3, 1]"]
+185 [color="#008000", label="1
+{1: 3}
+[3]"]
+184 -> 185 [labeldistance=2.5, labelangle=45, headlabel="2"]
+186 [color="#008000", label="0
+{0: 1}
+[1]"]
+184 -> 186 [labeldistance=2.5, labelangle=45, headlabel="1"]
+165 -> 184 [labeldistance=2.5, labelangle=45, headlabel="0"]
+163 -> 165 [labeldistance=2.5, labelangle=45, headlabel="0"]
+139 -> 163 [labeldistance=2.5, labelangle=45, headlabel="0"]
+2 -> 139 [labeldistance=2.5, labelangle=45, headlabel="1"]
+187 [color="#F4B80A", label="trestbps
+{0: 3, 1: 16, 2: 5, 3: 1}
+[2, 9, 14]"]
+188 [color="#F4B80A", label="thalach
+{0: 1, 2: 1}
+[1, 1]"]
+189 [color="#008000", label="0
+{0: 1}
+[1]"]
+188 -> 189 [labeldistance=2.5, labelangle=45, headlabel="1"]
+190 [color="#008000", label="2
+{2: 1}
+[1]"]
+188 -> 190 [labeldistance=2.5, labelangle=45, headlabel="0"]
+187 -> 188 [labeldistance=2.5, labelangle=45, headlabel="2"]
+191 [color="#F4B80A", label="sex
+{0: 1, 1: 5, 2: 3}
+[7, 2]"]
+192 [color="#F4B80A", label="thalach
+{1: 5, 2: 2}
+[1, 5, 1]"]
+193 [color="#008000", label="1
+{1: 1}
+[1]"]
+192 -> 193 [labeldistance=2.5, labelangle=45, headlabel="2"]
+194 [color="#F4B80A", label="chol
+{1: 4, 2: 1}
+[1, 2, 2]"]
+195 [color="#008000", label="1
+{1: 1}
+[1]"]
+194 -> 195 [labeldistance=2.5, labelangle=45, headlabel="2"]
+196 [color="#008000", label="1
+{1: 2}
+[2]"]
+194 -> 196 [labeldistance=2.5, labelangle=45, headlabel="1"]
+197 [color="#F4B80A", label="restecg
+{1: 1, 2: 1}
+[1, 1]"]
+198 [color="#008000", label="2
+{2: 1}
+[1]"]
+197 -> 198 [labeldistance=2.5, labelangle=45, headlabel="1"]
+199 [color="#008000", label="1
+{1: 1}
+[1]"]
+197 -> 199 [labeldistance=2.5, labelangle=45, headlabel="0"]
+194 -> 197 [labeldistance=2.5, labelangle=45, headlabel="0"]
+192 -> 194 [labeldistance=2.5, labelangle=45, headlabel="1"]
+200 [color="#008000", label="2
+{2: 1}
+[1]"]
+192 -> 200 [labeldistance=2.5, labelangle=45, headlabel="0"]
+191 -> 192 [labeldistance=2.5, labelangle=45, headlabel="1"]
+201 [color="#F4B80A", label="chol
+{0: 1, 2: 1}
+[1, 1]"]
+202 [color="#008000", label="2
+{2: 1}
+[1]"]
+201 -> 202 [labeldistance=2.5, labelangle=45, headlabel="2"]
+203 [color="#008000", label="0
+{0: 1}
+[1]"]
+201 -> 203 [labeldistance=2.5, labelangle=45, headlabel="1"]
+191 -> 201 [labeldistance=2.5, labelangle=45, headlabel="0"]
+187 -> 191 [labeldistance=2.5, labelangle=45, headlabel="1"]
+204 [color="#F4B80A", label="restecg
+{0: 1, 1: 11, 2: 1, 3: 1}
+[1, 1, 12]"]
+205 [color="#008000", label="3
+{3: 1}
+[1]"]
+204 -> 205 [labeldistance=2.5, labelangle=45, headlabel="2"]
+206 [color="#008000", label="0
+{0: 1}
+[1]"]
+204 -> 206 [labeldistance=2.5, labelangle=45, headlabel="1"]
+207 [color="#F4B80A", label="thalach
+{1: 11, 2: 1}
+[1, 5, 6]"]
+208 [color="#008000", label="1
+{1: 1}
+[1]"]
+207 -> 208 [labeldistance=2.5, labelangle=45, headlabel="2"]
+209 [color="#F4B80A", label="oldpeak
+{1: 4, 2: 1}
+[3, 1, 1]"]
+210 [color="#F4B80A", label="sex
+{1: 2, 2: 1}
+[3]"]
+211 [color="#008000", label="1
+{1: 2, 2: 1}
+[3]"]
+210 -> 211 [labeldistance=2.5, labelangle=45, headlabel="1"]
+209 -> 210 [labeldistance=2.5, labelangle=45, headlabel="2"]
+212 [color="#008000", label="1
+{1: 1}
+[1]"]
+209 -> 212 [labeldistance=2.5, labelangle=45, headlabel="1"]
+213 [color="#008000", label="1
+{1: 1}
+[1]"]
+209 -> 213 [labeldistance=2.5, labelangle=45, headlabel="0"]
+207 -> 209 [labeldistance=2.5, labelangle=45, headlabel="1"]
+214 [color="#008000", label="1
+{1: 6}
+[6]"]
+207 -> 214 [labeldistance=2.5, labelangle=45, headlabel="0"]
+204 -> 207 [labeldistance=2.5, labelangle=45, headlabel="0"]
+187 -> 204 [labeldistance=2.5, labelangle=45, headlabel="0"]
+2 -> 187 [labeldistance=2.5, labelangle=45, headlabel="0"]
+1 -> 2 [labeldistance=2.5, labelangle=45, headlabel="4"]
+215 [color="#F4B80A", label="thalach
+{0: 11, 1: 4, 2: 3, 3: 5}
+[3, 9, 11]"]
+216 [color="#008000", label="0
+{0: 3}
+[3]"]
+215 -> 216 [labeldistance=2.5, labelangle=45, headlabel="2"]
+217 [color="#F4B80A", label="restecg
+{0: 5, 1: 3, 3: 1}
+[1, 1, 7]"]
+218 [color="#008000", label="3
+{3: 1}
+[1]"]
+217 -> 218 [labeldistance=2.5, labelangle=45, headlabel="2"]
+219 [color="#008000", label="0
+{0: 1}
+[1]"]
+217 -> 219 [labeldistance=2.5, labelangle=45, headlabel="1"]
+220 [color="#F4B80A", label="chol
+{0: 4, 1: 3}
+[3, 3, 1]"]
+221 [color="#F4B80A", label="age
+{0: 1, 1: 2}
+[1, 1, 1]"]
+222 [color="#008000", label="1
+{1: 1}
+[1]"]
+221 -> 222 [labeldistance=2.5, labelangle=45, headlabel="4"]
+223 [color="#008000", label="0
+{0: 1}
+[1]"]
+221 -> 223 [labeldistance=2.5, labelangle=45, headlabel="2"]
+224 [color="#008000", label="1
+{1: 1}
+[1]"]
+221 -> 224 [labeldistance=2.5, labelangle=45, headlabel="1"]
+220 -> 221 [labeldistance=2.5, labelangle=45, headlabel="2"]
+225 [color="#008000", label="0
+{0: 3}
+[3]"]
+220 -> 225 [labeldistance=2.5, labelangle=45, headlabel="1"]
+226 [color="#008000", label="1
+{1: 1}
+[1]"]
+220 -> 226 [labeldistance=2.5, labelangle=45, headlabel="0"]
+217 -> 220 [labeldistance=2.5, labelangle=45, headlabel="0"]
+215 -> 217 [labeldistance=2.5, labelangle=45, headlabel="1"]
+227 [color="#F4B80A", label="sex
+{0: 3, 1: 1, 2: 3, 3: 4}
+[10, 1]"]
+228 [color="#F4B80A", label="restecg
+{0: 3, 2: 3, 3: 4}
+[1, 2, 7]"]
+229 [color="#008000", label="0
+{0: 1}
+[1]"]
+228 -> 229 [labeldistance=2.5, labelangle=45, headlabel="2"]
+230 [color="#008000", label="2
+{2: 2}
+[2]"]
+228 -> 230 [labeldistance=2.5, labelangle=45, headlabel="1"]
+231 [color="#F4B80A", label="age
+{0: 2, 2: 1, 3: 4}
+[3, 1, 2, 1]"]
+232 [color="#008000", label="3
+{3: 3}
+[3]"]
+231 -> 232 [labeldistance=2.5, labelangle=45, headlabel="4"]
+233 [color="#008000", label="0
+{0: 1}
+[1]"]
+231 -> 233 [labeldistance=2.5, labelangle=45, headlabel="2"]
+234 [color="#F4B80A", label="trestbps
+{2: 1, 3: 1}
+[1, 1]"]
+235 [color="#008000", label="3
+{3: 1}
+[1]"]
+234 -> 235 [labeldistance=2.5, labelangle=45, headlabel="2"]
+236 [color="#008000", label="2
+{2: 1}
+[1]"]
+234 -> 236 [labeldistance=2.5, labelangle=45, headlabel="0"]
+231 -> 234 [labeldistance=2.5, labelangle=45, headlabel="1"]
+237 [color="#008000", label="0
+{0: 1}
+[1]"]
+231 -> 237 [labeldistance=2.5, labelangle=45, headlabel="0"]
+228 -> 231 [labeldistance=2.5, labelangle=45, headlabel="0"]
+227 -> 228 [labeldistance=2.5, labelangle=45, headlabel="1"]
+238 [color="#008000", label="1
+{1: 1}
+[1]"]
+227 -> 238 [labeldistance=2.5, labelangle=45, headlabel="0"]
+215 -> 227 [labeldistance=2.5, labelangle=45, headlabel="0"]
+1 -> 215 [labeldistance=2.5, labelangle=45, headlabel="3"]
+239 [color="#F4B80A", label="trestbps
+{0: 7, 1: 3, 2: 2}
+[3, 6, 3]"]
+240 [color="#F4B80A", label="age
+{1: 2, 2: 1}
+[1, 2]"]
+241 [color="#008000", label="2
+{2: 1}
+[1]"]
+240 -> 241 [labeldistance=2.5, labelangle=45, headlabel="4"]
+242 [color="#008000", label="1
+{1: 2}
+[2]"]
+240 -> 242 [labeldistance=2.5, labelangle=45, headlabel="2"]
+239 -> 240 [labeldistance=2.5, labelangle=45, headlabel="2"]
+243 [color="#F4B80A", label="thalach
+{0: 5, 2: 1}
+[3, 2, 1]"]
+244 [color="#008000", label="0
+{0: 3}
+[3]"]
+243 -> 244 [labeldistance=2.5, labelangle=45, headlabel="2"]
+245 [color="#008000", label="0
+{0: 2}
+[2]"]
+243 -> 245 [labeldistance=2.5, labelangle=45, headlabel="1"]
+246 [color="#008000", label="2
+{2: 1}
+[1]"]
+243 -> 246 [labeldistance=2.5, labelangle=45, headlabel="0"]
+239 -> 243 [labeldistance=2.5, labelangle=45, headlabel="1"]
+247 [color="#F4B80A", label="oldpeak
+{0: 2, 1: 1}
+[2, 1]"]
+248 [color="#008000", label="0
+{0: 2}
+[2]"]
+247 -> 248 [labeldistance=2.5, labelangle=45, headlabel="1"]
+249 [color="#008000", label="1
+{1: 1}
+[1]"]
+247 -> 249 [labeldistance=2.5, labelangle=45, headlabel="0"]
+239 -> 247 [labeldistance=2.5, labelangle=45, headlabel="0"]
+1 -> 239 [labeldistance=2.5, labelangle=45, headlabel="2"]
+250 [color="#F4B80A", label="trestbps
+{0: 2, 4: 1}
+[2, 1]"]
+251 [color="#008000", label="0
+{0: 2}
+[2]"]
+250 -> 251 [labeldistance=2.5, labelangle=45, headlabel="1"]
+252 [color="#008000", label="4
+{4: 1}
+[1]"]
+250 -> 252 [labeldistance=2.5, labelangle=45, headlabel="0"]
+1 -> 250 [labeldistance=2.5, labelangle=45, headlabel="1"]
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="1"]
+253 [color="#F4B80A", label="cp
+{0: 210, 1: 59, 2: 20, 3: 10, 4: 5}
+[91, 93, 96, 24]"]
+254 [color="#F4B80A", label="fbs
+{0: 41, 1: 29, 2: 12, 3: 5, 4: 4}
+[9, 82]"]
+255 [color="#F4B80A", label="restecg
+{1: 4, 2: 2, 3: 2, 4: 1}
+[2, 3, 4]"]
+256 [color="#F4B80A", label="chol
+{3: 1, 4: 1}
+[1, 1]"]
+257 [color="#008000", label="4
+{4: 1}
+[1]"]
+256 -> 257 [labeldistance=2.5, labelangle=45, headlabel="2"]
+258 [color="#008000", label="3
+{3: 1}
+[1]"]
+256 -> 258 [labeldistance=2.5, labelangle=45, headlabel="0"]
+255 -> 256 [labeldistance=2.5, labelangle=45, headlabel="2"]
+259 [color="#008000", label="1
+{1: 3}
+[3]"]
+255 -> 259 [labeldistance=2.5, labelangle=45, headlabel="1"]
+260 [color="#F4B80A", label="age
+{1: 1, 2: 2, 3: 1}
+[3, 1]"]
+261 [color="#F4B80A", label="trestbps
+{2: 2, 3: 1}
+[1, 1, 1]"]
+262 [color="#008000", label="2
+{2: 1}
+[1]"]
+261 -> 262 [labeldistance=2.5, labelangle=45, headlabel="2"]
+263 [color="#008000", label="2
+{2: 1}
+[1]"]
+261 -> 263 [labeldistance=2.5, labelangle=45, headlabel="1"]
+264 [color="#008000", label="3
+{3: 1}
+[1]"]
+261 -> 264 [labeldistance=2.5, labelangle=45, headlabel="0"]
+260 -> 261 [labeldistance=2.5, labelangle=45, headlabel="4"]
+265 [color="#008000", label="1
+{1: 1}
+[1]"]
+260 -> 265 [labeldistance=2.5, labelangle=45, headlabel="1"]
+255 -> 260 [labeldistance=2.5, labelangle=45, headlabel="0"]
+254 -> 255 [labeldistance=2.5, labelangle=45, headlabel="1"]
+266 [color="#F4B80A", label="trestbps
+{0: 41, 1: 25, 2: 10, 3: 3, 4: 3}
+[14, 30, 38]"]
+267 [color="#F4B80A", label="chol
+{0: 3, 1: 5, 2: 1, 3: 2, 4: 3}
+[7, 6, 1]"]
+268 [color="#F4B80A", label="sex
+{0: 3, 1: 3, 3: 1}
+[5, 2]"]
+269 [color="#F4B80A", label="age
+{0: 3, 1: 1, 3: 1}
+[1, 2, 2]"]
+270 [color="#008000", label="3
+{3: 1}
+[1]"]
+269 -> 270 [labeldistance=2.5, labelangle=45, headlabel="2"]
+271 [color="#F4B80A", label="restecg
+{0: 1, 1: 1}
+[1, 1]"]
+272 [color="#008000", label="0
+{0: 1}
+[1]"]
+271 -> 272 [labeldistance=2.5, labelangle=45, headlabel="1"]
+273 [color="#008000", label="1
+{1: 1}
+[1]"]
+271 -> 273 [labeldistance=2.5, labelangle=45, headlabel="0"]
+269 -> 271 [labeldistance=2.5, labelangle=45, headlabel="1"]
+274 [color="#008000", label="0
+{0: 2}
+[2]"]
+269 -> 274 [labeldistance=2.5, labelangle=45, headlabel="0"]
+268 -> 269 [labeldistance=2.5, labelangle=45, headlabel="1"]
+275 [color="#008000", label="1
+{1: 2}
+[2]"]
+268 -> 275 [labeldistance=2.5, labelangle=45, headlabel="0"]
+267 -> 268 [labeldistance=2.5, labelangle=45, headlabel="2"]
+276 [color="#F4B80A", label="restecg
+{1: 2, 3: 1, 4: 3}
+[4, 2]"]
+277 [color="#F4B80A", label="age
+{3: 1, 4: 3}
+[2, 1, 1]"]
+278 [color="#008000", label="4
+{4: 2}
+[2]"]
+277 -> 278 [labeldistance=2.5, labelangle=45, headlabel="4"]
+279 [color="#008000", label="3
+{3: 1}
+[1]"]
+277 -> 279 [labeldistance=2.5, labelangle=45, headlabel="2"]
+280 [color="#008000", label="4
+{4: 1}
+[1]"]
+277 -> 280 [labeldistance=2.5, labelangle=45, headlabel="1"]
+276 -> 277 [labeldistance=2.5, labelangle=45, headlabel="2"]
+281 [color="#008000", label="1
+{1: 2}
+[2]"]
+276 -> 281 [labeldistance=2.5, labelangle=45, headlabel="0"]
+267 -> 276 [labeldistance=2.5, labelangle=45, headlabel="1"]
+282 [color="#008000", label="2
+{2: 1}
+[1]"]
+267 -> 282 [labeldistance=2.5, labelangle=45, headlabel="0"]
+266 -> 267 [labeldistance=2.5, labelangle=45, headlabel="2"]
+283 [color="#F4B80A", label="oldpeak
+{0: 21, 1: 6, 2: 2, 3: 1}
+[5, 5, 20]"]
+284 [color="#F4B80A", label="sex
+{0: 2, 1: 3}
+[3, 2]"]
+285 [color="#008000", label="1
+{1: 3}
+[3]"]
+284 -> 285 [labeldistance=2.5, labelangle=45, headlabel="1"]
+286 [color="#008000", label="0
+{0: 2}
+[2]"]
+284 -> 286 [labeldistance=2.5, labelangle=45, headlabel="0"]
+283 -> 284 [labeldistance=2.5, labelangle=45, headlabel="2"]
+287 [color="#F4B80A", label="sex
+{0: 4, 3: 1}
+[3, 2]"]
+288 [color="#F4B80A", label="age
+{0: 2, 3: 1}
+[1, 2]"]
+289 [color="#008000", label="0
+{0: 1}
+[1]"]
+288 -> 289 [labeldistance=2.5, labelangle=45, headlabel="2"]
+290 [color="#F4B80A", label="chol
+{0: 1, 3: 1}
+[2]"]
+291 [color="#F4B80A", label="restecg
+{0: 1, 3: 1}
+[2]"]
+292 [color="#008000", label="0
+{0: 1, 3: 1}
+[2]"]
+291 -> 292 [labeldistance=2.5, labelangle=45, headlabel="0"]
+290 -> 291 [labeldistance=2.5, labelangle=45, headlabel="1"]
+288 -> 290 [labeldistance=2.5, labelangle=45, headlabel="1"]
+287 -> 288 [labeldistance=2.5, labelangle=45, headlabel="1"]
+293 [color="#008000", label="0
+{0: 2}
+[2]"]
+287 -> 293 [labeldistance=2.5, labelangle=45, headlabel="0"]
+283 -> 287 [labeldistance=2.5, labelangle=45, headlabel="1"]
+294 [color="#F4B80A", label="thalach
+{0: 15, 1: 3, 2: 2}
+[9, 6, 5]"]
+295 [color="#F4B80A", label="age
+{0: 7, 1: 2}
+[2, 1, 3, 3]"]
+296 [color="#F4B80A", label="chol
+{0: 1, 1: 1}
+[1, 1]"]
+297 [color="#008000", label="1
+{1: 1}
+[1]"]
+296 -> 297 [labeldistance=2.5, labelangle=45, headlabel="2"]
+298 [color="#008000", label="0
+{0: 1}
+[1]"]
+296 -> 298 [labeldistance=2.5, labelangle=45, headlabel="0"]
+295 -> 296 [labeldistance=2.5, labelangle=45, headlabel="4"]
+299 [color="#008000", label="0
+{0: 1}
+[1]"]
+295 -> 299 [labeldistance=2.5, labelangle=45, headlabel="2"]
+300 [color="#F4B80A", label="chol
+{0: 2, 1: 1}
+[1, 1, 1]"]
+301 [color="#008000", label="0
+{0: 1}
+[1]"]
+300 -> 301 [labeldistance=2.5, labelangle=45, headlabel="2"]
+302 [color="#008000", label="0
+{0: 1}
+[1]"]
+300 -> 302 [labeldistance=2.5, labelangle=45, headlabel="1"]
+303 [color="#008000", label="1
+{1: 1}
+[1]"]
+300 -> 303 [labeldistance=2.5, labelangle=45, headlabel="0"]
+295 -> 300 [labeldistance=2.5, labelangle=45, headlabel="1"]
+304 [color="#008000", label="0
+{0: 3}
+[3]"]
+295 -> 304 [labeldistance=2.5, labelangle=45, headlabel="0"]
+294 -> 295 [labeldistance=2.5, labelangle=45, headlabel="2"]
+305 [color="#F4B80A", label="chol
+{0: 5, 1: 1}
+[2, 1, 3]"]
+306 [color="#008000", label="0
+{0: 2}
+[2]"]
+305 -> 306 [labeldistance=2.5, labelangle=45, headlabel="2"]
+307 [color="#008000", label="1
+{1: 1}
+[1]"]
+305 -> 307 [labeldistance=2.5, labelangle=45, headlabel="1"]
+308 [color="#008000", label="0
+{0: 3}
+[3]"]
+305 -> 308 [labeldistance=2.5, labelangle=45, headlabel="0"]
+294 -> 305 [labeldistance=2.5, labelangle=45, headlabel="1"]
+309 [color="#F4B80A", label="chol
+{0: 3, 2: 2}
+[1, 2, 2]"]
+310 [color="#008000", label="2
+{2: 1}
+[1]"]
+309 -> 310 [labeldistance=2.5, labelangle=45, headlabel="2"]
+311 [color="#008000", label="0
+{0: 2}
+[2]"]
+309 -> 311 [labeldistance=2.5, labelangle=45, headlabel="1"]
+312 [color="#F4B80A", label="age
+{0: 1, 2: 1}
+[2]"]
+313 [color="#F4B80A", label="sex
+{0: 1, 2: 1}
+[2]"]
+314 [color="#008000", label="0
+{0: 1, 2: 1}
+[2]"]
+313 -> 314 [labeldistance=2.5, labelangle=45, headlabel="1"]
+312 -> 313 [labeldistance=2.5, labelangle=45, headlabel="1"]
+309 -> 312 [labeldistance=2.5, labelangle=45, headlabel="0"]
+294 -> 309 [labeldistance=2.5, labelangle=45, headlabel="0"]
+283 -> 294 [labeldistance=2.5, labelangle=45, headlabel="0"]
+266 -> 283 [labeldistance=2.5, labelangle=45, headlabel="1"]
+315 [color="#F4B80A", label="sex
+{0: 17, 1: 14, 2: 7}
+[33, 5]"]
+316 [color="#F4B80A", label="oldpeak
+{0: 13, 1: 13, 2: 7}
+[2, 9, 22]"]
+317 [color="#008000", label="1
+{1: 2}
+[2]"]
+316 -> 317 [labeldistance=2.5, labelangle=45, headlabel="2"]
+318 [color="#F4B80A", label="thalach
+{0: 3, 1: 3, 2: 3}
+[2, 3, 4]"]
+319 [color="#F4B80A", label="age
+{1: 1, 2: 1}
+[1, 1]"]
+320 [color="#008000", label="1
+{1: 1}
+[1]"]
+319 -> 320 [labeldistance=2.5, labelangle=45, headlabel="4"]
+321 [color="#008000", label="2
+{2: 1}
+[1]"]
+319 -> 321 [labeldistance=2.5, labelangle=45, headlabel="2"]
+318 -> 319 [labeldistance=2.5, labelangle=45, headlabel="2"]
+322 [color="#008000", label="0
+{0: 3}
+[3]"]
+318 -> 322 [labeldistance=2.5, labelangle=45, headlabel="1"]
+323 [color="#F4B80A", label="age
+{1: 2, 2: 2}
+[1, 2, 1]"]
+324 [color="#008000", label="2
+{2: 1}
+[1]"]
+323 -> 324 [labeldistance=2.5, labelangle=45, headlabel="4"]
+325 [color="#F4B80A", label="chol
+{1: 1, 2: 1}
+[1, 1]"]
+326 [color="#008000", label="1
+{1: 1}
+[1]"]
+325 -> 326 [labeldistance=2.5, labelangle=45, headlabel="1"]
+327 [color="#008000", label="2
+{2: 1}
+[1]"]
+325 -> 327 [labeldistance=2.5, labelangle=45, headlabel="0"]
+323 -> 325 [labeldistance=2.5, labelangle=45, headlabel="2"]
+328 [color="#008000", label="1
+{1: 1}
+[1]"]
+323 -> 328 [labeldistance=2.5, labelangle=45, headlabel="0"]
+318 -> 323 [labeldistance=2.5, labelangle=45, headlabel="0"]
+316 -> 318 [labeldistance=2.5, labelangle=45, headlabel="1"]
+329 [color="#F4B80A", label="age
+{0: 10, 1: 8, 2: 4}
+[1, 7, 1, 13]"]
+330 [color="#008000", label="0
+{0: 1}
+[1]"]
+329 -> 330 [labeldistance=2.5, labelangle=45, headlabel="4"]
+331 [color="#F4B80A", label="chol
+{0: 4, 1: 1, 2: 2}
+[1, 1, 5]"]
+332 [color="#008000", label="0
+{0: 1}
+[1]"]
+331 -> 332 [labeldistance=2.5, labelangle=45, headlabel="2"]
+333 [color="#008000", label="0
+{0: 1}
+[1]"]
+331 -> 333 [labeldistance=2.5, labelangle=45, headlabel="1"]
+334 [color="#F4B80A", label="restecg
+{0: 2, 1: 1, 2: 2}
+[1, 1, 3]"]
+335 [color="#008000", label="0
+{0: 1}
+[1]"]
+334 -> 335 [labeldistance=2.5, labelangle=45, headlabel="2"]
+336 [color="#008000", label="2
+{2: 1}
+[1]"]
+334 -> 336 [labeldistance=2.5, labelangle=45, headlabel="1"]
+337 [color="#008000", label="0
+{0: 1, 1: 1, 2: 1}
+[3]"]
+334 -> 337 [labeldistance=2.5, labelangle=45, headlabel="0"]
+331 -> 334 [labeldistance=2.5, labelangle=45, headlabel="0"]
+329 -> 331 [labeldistance=2.5, labelangle=45, headlabel="2"]
+338 [color="#008000", label="2
+{2: 1}
+[1]"]
+329 -> 338 [labeldistance=2.5, labelangle=45, headlabel="1"]
+339 [color="#F4B80A", label="chol
+{0: 5, 1: 7, 2: 1}
+[5, 2, 6]"]
+340 [color="#F4B80A", label="restecg
+{0: 1, 1: 3, 2: 1}
+[2, 3]"]
+341 [color="#008000", label="0
+{0: 1, 2: 1}
+[2]"]
+340 -> 341 [labeldistance=2.5, labelangle=45, headlabel="2"]
+342 [color="#008000", label="1
+{1: 3}
+[3]"]
+340 -> 342 [labeldistance=2.5, labelangle=45, headlabel="0"]
+339 -> 340 [labeldistance=2.5, labelangle=45, headlabel="2"]
+343 [color="#008000", label="0
+{0: 2}
+[2]"]
+339 -> 343 [labeldistance=2.5, labelangle=45, headlabel="1"]
+344 [color="#F4B80A", label="restecg
+{0: 2, 1: 4}
+[2, 1, 3]"]
+345 [color="#008000", label="1
+{1: 2}
+[2]"]
+344 -> 345 [labeldistance=2.5, labelangle=45, headlabel="2"]
+346 [color="#008000", label="0
+{0: 1}
+[1]"]
+344 -> 346 [labeldistance=2.5, labelangle=45, headlabel="1"]
+347 [color="#008000", label="1
+{0: 1, 1: 2}
+[3]"]
+344 -> 347 [labeldistance=2.5, labelangle=45, headlabel="0"]
+339 -> 344 [labeldistance=2.5, labelangle=45, headlabel="0"]
+329 -> 339 [labeldistance=2.5, labelangle=45, headlabel="0"]
+316 -> 329 [labeldistance=2.5, labelangle=45, headlabel="0"]
+315 -> 316 [labeldistance=2.5, labelangle=45, headlabel="1"]
+348 [color="#F4B80A", label="chol
+{0: 4, 1: 1}
+[3, 2]"]
+349 [color="#008000", label="0
+{0: 3}
+[3]"]
+348 -> 349 [labeldistance=2.5, labelangle=45, headlabel="1"]
+350 [color="#F4B80A", label="age
+{0: 1, 1: 1}
+[1, 1]"]
+351 [color="#008000", label="0
+{0: 1}
+[1]"]
+350 -> 351 [labeldistance=2.5, labelangle=45, headlabel="1"]
+352 [color="#008000", label="1
+{1: 1}
+[1]"]
+350 -> 352 [labeldistance=2.5, labelangle=45, headlabel="0"]
+348 -> 350 [labeldistance=2.5, labelangle=45, headlabel="0"]
+315 -> 348 [labeldistance=2.5, labelangle=45, headlabel="0"]
+266 -> 315 [labeldistance=2.5, labelangle=45, headlabel="0"]
+254 -> 266 [labeldistance=2.5, labelangle=45, headlabel="0"]
+253 -> 254 [labeldistance=2.5, labelangle=45, headlabel="4"]
+353 [color="#F4B80A", label="sex
+{0: 69, 1: 16, 2: 5, 3: 2, 4: 1}
+[55, 38]"]
+354 [color="#F4B80A", label="age
+{0: 34, 1: 14, 2: 4, 3: 2, 4: 1}
+[8, 12, 21, 14]"]
+355 [color="#F4B80A", label="restecg
+{0: 3, 1: 4, 2: 1}
+[2, 2, 4]"]
+356 [color="#F4B80A", label="trestbps
+{1: 1, 2: 1}
+[1, 1]"]
+357 [color="#008000", label="1
+{1: 1}
+[1]"]
+356 -> 357 [labeldistance=2.5, labelangle=45, headlabel="2"]
+358 [color="#008000", label="2
+{2: 1}
+[1]"]
+356 -> 358 [labeldistance=2.5, labelangle=45, headlabel="1"]
+355 -> 356 [labeldistance=2.5, labelangle=45, headlabel="2"]
+359 [color="#008000", label="0
+{0: 2}
+[2]"]
+355 -> 359 [labeldistance=2.5, labelangle=45, headlabel="1"]
+360 [color="#F4B80A", label="oldpeak
+{0: 1, 1: 3}
+[1, 3]"]
+361 [color="#008000", label="0
+{0: 1}
+[1]"]
+360 -> 361 [labeldistance=2.5, labelangle=45, headlabel="1"]
+362 [color="#008000", label="1
+{1: 3}
+[3]"]
+360 -> 362 [labeldistance=2.5, labelangle=45, headlabel="0"]
+355 -> 360 [labeldistance=2.5, labelangle=45, headlabel="0"]
+354 -> 355 [labeldistance=2.5, labelangle=45, headlabel="4"]
+363 [color="#F4B80A", label="restecg
+{0: 6, 1: 2, 2: 2, 3: 1, 4: 1}
+[2, 2, 8]"]
+364 [color="#F4B80A", label="trestbps
+{1: 1, 4: 1}
+[1, 1]"]
+365 [color="#008000", label="1
+{1: 1}
+[1]"]
+364 -> 365 [labeldistance=2.5, labelangle=45, headlabel="1"]
+366 [color="#008000", label="4
+{4: 1}
+[1]"]
+364 -> 366 [labeldistance=2.5, labelangle=45, headlabel="0"]
+363 -> 364 [labeldistance=2.5, labelangle=45, headlabel="2"]
+367 [color="#F4B80A", label="trestbps
+{1: 1, 2: 1}
+[1, 1]"]
+368 [color="#008000", label="2
+{2: 1}
+[1]"]
+367 -> 368 [labeldistance=2.5, labelangle=45, headlabel="2"]
+369 [color="#008000", label="1
+{1: 1}
+[1]"]
+367 -> 369 [labeldistance=2.5, labelangle=45, headlabel="1"]
+363 -> 367 [labeldistance=2.5, labelangle=45, headlabel="1"]
+370 [color="#F4B80A", label="thalach
+{0: 6, 2: 1, 3: 1}
+[5, 1, 2]"]
+371 [color="#F4B80A", label="trestbps
+{0: 4, 3: 1}
+[2, 1, 2]"]
+372 [color="#008000", label="0
+{0: 2}
+[2]"]
+371 -> 372 [labeldistance=2.5, labelangle=45, headlabel="2"]
+373 [color="#008000", label="0
+{0: 1}
+[1]"]
+371 -> 373 [labeldistance=2.5, labelangle=45, headlabel="1"]
+374 [color="#F4B80A", label="chol
+{0: 1, 3: 1}
+[1, 1]"]
+375 [color="#008000", label="0
+{0: 1}
+[1]"]
+374 -> 375 [labeldistance=2.5, labelangle=45, headlabel="2"]
+376 [color="#008000", label="3
+{3: 1}
+[1]"]
+374 -> 376 [labeldistance=2.5, labelangle=45, headlabel="0"]
+371 -> 374 [labeldistance=2.5, labelangle=45, headlabel="0"]
+370 -> 371 [labeldistance=2.5, labelangle=45, headlabel="2"]
+377 [color="#008000", label="2
+{2: 1}
+[1]"]
+370 -> 377 [labeldistance=2.5, labelangle=45, headlabel="1"]
+378 [color="#008000", label="0
+{0: 2}
+[2]"]
+370 -> 378 [labeldistance=2.5, labelangle=45, headlabel="0"]
+363 -> 370 [labeldistance=2.5, labelangle=45, headlabel="0"]
+354 -> 363 [labeldistance=2.5, labelangle=45, headlabel="2"]
+379 [color="#F4B80A", label="restecg
+{0: 11, 1: 8, 2: 1, 3: 1}
+[8, 2, 11]"]
+380 [color="#F4B80A", label="thalach
+{0: 7, 1: 1}
+[4, 3, 1]"]
+381 [color="#008000", label="0
+{0: 4}
+[4]"]
+380 -> 381 [labeldistance=2.5, labelangle=45, headlabel="2"]
+382 [color="#008000", label="0
+{0: 3}
+[3]"]
+380 -> 382 [labeldistance=2.5, labelangle=45, headlabel="1"]
+383 [color="#008000", label="1
+{1: 1}
+[1]"]
+380 -> 383 [labeldistance=2.5, labelangle=45, headlabel="0"]
+379 -> 380 [labeldistance=2.5, labelangle=45, headlabel="2"]
+384 [color="#F4B80A", label="chol
+{1: 1, 2: 1}
+[1, 1]"]
+385 [color="#008000", label="1
+{1: 1}
+[1]"]
+384 -> 385 [labeldistance=2.5, labelangle=45, headlabel="1"]
+386 [color="#008000", label="2
+{2: 1}
+[1]"]
+384 -> 386 [labeldistance=2.5, labelangle=45, headlabel="0"]
+379 -> 384 [labeldistance=2.5, labelangle=45, headlabel="1"]
+387 [color="#F4B80A", label="fbs
+{0: 4, 1: 6, 3: 1}
+[2, 9]"]
+388 [color="#008000", label="0
+{0: 2}
+[2]"]
+387 -> 388 [labeldistance=2.5, labelangle=45, headlabel="1"]
+389 [color="#F4B80A", label="oldpeak
+{0: 2, 1: 6, 3: 1}
+[2, 1, 6]"]
+390 [color="#F4B80A", label="trestbps
+{1: 1, 3: 1}
+[1, 1]"]
+391 [color="#008000", label="1
+{1: 1}
+[1]"]
+390 -> 391 [labeldistance=2.5, labelangle=45, headlabel="1"]
+392 [color="#008000", label="3
+{3: 1}
+[1]"]
+390 -> 392 [labeldistance=2.5, labelangle=45, headlabel="0"]
+389 -> 390 [labeldistance=2.5, labelangle=45, headlabel="2"]
+393 [color="#008000", label="1
+{1: 1}
+[1]"]
+389 -> 393 [labeldistance=2.5, labelangle=45, headlabel="1"]
+394 [color="#F4B80A", label="trestbps
+{0: 2, 1: 4}
+[1, 1, 4]"]
+395 [color="#008000", label="1
+{1: 1}
+[1]"]
+394 -> 395 [labeldistance=2.5, labelangle=45, headlabel="2"]
+396 [color="#008000", label="0
+{0: 1}
+[1]"]
+394 -> 396 [labeldistance=2.5, labelangle=45, headlabel="1"]
+397 [color="#008000", label="1
+{0: 1, 1: 3}
+[4]"]
+394 -> 397 [labeldistance=2.5, labelangle=45, headlabel="0"]
+389 -> 394 [labeldistance=2.5, labelangle=45, headlabel="0"]
+387 -> 389 [labeldistance=2.5, labelangle=45, headlabel="0"]
+379 -> 387 [labeldistance=2.5, labelangle=45, headlabel="0"]
+354 -> 379 [labeldistance=2.5, labelangle=45, headlabel="1"]
+398 [color="#008000", label="0
+{0: 14}
+[14]"]
+354 -> 398 [labeldistance=2.5, labelangle=45, headlabel="0"]
+353 -> 354 [labeldistance=2.5, labelangle=45, headlabel="1"]
+399 [color="#F4B80A", label="trestbps
+{0: 35, 1: 2, 2: 1}
+[6, 13, 19]"]
+400 [color="#F4B80A", label="restecg
+{0: 5, 1: 1}
+[2, 1, 3]"]
+401 [color="#008000", label="0
+{0: 2}
+[2]"]
+400 -> 401 [labeldistance=2.5, labelangle=45, headlabel="2"]
+402 [color="#008000", label="1
+{1: 1}
+[1]"]
+400 -> 402 [labeldistance=2.5, labelangle=45, headlabel="1"]
+403 [color="#008000", label="0
+{0: 3}
+[3]"]
+400 -> 403 [labeldistance=2.5, labelangle=45, headlabel="0"]
+399 -> 400 [labeldistance=2.5, labelangle=45, headlabel="2"]
+404 [color="#F4B80A", label="thalach
+{0: 11, 1: 1, 2: 1}
+[4, 7, 2]"]
+405 [color="#F4B80A", label="chol
+{0: 3, 1: 1}
+[2, 1, 1]"]
+406 [color="#008000", label="0
+{0: 2}
+[2]"]
+405 -> 406 [labeldistance=2.5, labelangle=45, headlabel="2"]
+407 [color="#008000", label="1
+{1: 1}
+[1]"]
+405 -> 407 [labeldistance=2.5, labelangle=45, headlabel="1"]
+408 [color="#008000", label="0
+{0: 1}
+[1]"]
+405 -> 408 [labeldistance=2.5, labelangle=45, headlabel="0"]
+404 -> 405 [labeldistance=2.5, labelangle=45, headlabel="2"]
+409 [color="#008000", label="0
+{0: 7}
+[7]"]
+404 -> 409 [labeldistance=2.5, labelangle=45, headlabel="1"]
+410 [color="#F4B80A", label="chol
+{0: 1, 2: 1}
+[1, 1]"]
+411 [color="#008000", label="2
+{2: 1}
+[1]"]
+410 -> 411 [labeldistance=2.5, labelangle=45, headlabel="2"]
+412 [color="#008000", label="0
+{0: 1}
+[1]"]
+410 -> 412 [labeldistance=2.5, labelangle=45, headlabel="0"]
+404 -> 410 [labeldistance=2.5, labelangle=45, headlabel="0"]
+399 -> 404 [labeldistance=2.5, labelangle=45, headlabel="1"]
+413 [color="#008000", label="0
+{0: 19}
+[19]"]
+399 -> 413 [labeldistance=2.5, labelangle=45, headlabel="0"]
+353 -> 399 [labeldistance=2.5, labelangle=45, headlabel="0"]
+253 -> 353 [labeldistance=2.5, labelangle=45, headlabel="3"]
+414 [color="#F4B80A", label="fbs
+{0: 89, 1: 6, 3: 1}
+[6, 90]"]
+415 [color="#F4B80A", label="oldpeak
+{0: 4, 1: 1, 3: 1}
+[1, 5]"]
+416 [color="#008000", label="1
+{1: 1}
+[1]"]
+415 -> 416 [labeldistance=2.5, labelangle=45, headlabel="1"]
+417 [color="#F4B80A", label="sex
+{0: 4, 3: 1}
+[3, 2]"]
+418 [color="#008000", label="0
+{0: 3}
+[3]"]
+417 -> 418 [labeldistance=2.5, labelangle=45, headlabel="1"]
+419 [color="#F4B80A", label="age
+{0: 1, 3: 1}
+[1, 1]"]
+420 [color="#008000", label="3
+{3: 1}
+[1]"]
+419 -> 420 [labeldistance=2.5, labelangle=45, headlabel="2"]
+421 [color="#008000", label="0
+{0: 1}
+[1]"]
+419 -> 421 [labeldistance=2.5, labelangle=45, headlabel="1"]
+417 -> 419 [labeldistance=2.5, labelangle=45, headlabel="0"]
+415 -> 417 [labeldistance=2.5, labelangle=45, headlabel="0"]
+414 -> 415 [labeldistance=2.5, labelangle=45, headlabel="1"]
+422 [color="#F4B80A", label="age
+{0: 85, 1: 5}
+[2, 18, 28, 42]"]
+423 [color="#008000", label="0
+{0: 2}
+[2]"]
+422 -> 423 [labeldistance=2.5, labelangle=45, headlabel="4"]
+424 [color="#F4B80A", label="trestbps
+{0: 15, 1: 3}
+[2, 12, 4]"]
+425 [color="#F4B80A", label="chol
+{0: 1, 1: 1}
+[1, 1]"]
+426 [color="#008000", label="0
+{0: 1}
+[1]"]
+425 -> 426 [labeldistance=2.5, labelangle=45, headlabel="2"]
+427 [color="#008000", label="1
+{1: 1}
+[1]"]
+425 -> 427 [labeldistance=2.5, labelangle=45, headlabel="1"]
+424 -> 425 [labeldistance=2.5, labelangle=45, headlabel="2"]
+428 [color="#F4B80A", label="sex
+{0: 11, 1: 1}
+[7, 5]"]
+429 [color="#008000", label="0
+{0: 7}
+[7]"]
+428 -> 429 [labeldistance=2.5, labelangle=45, headlabel="1"]
+430 [color="#F4B80A", label="chol
+{0: 4, 1: 1}
+[2, 2, 1]"]
+431 [color="#008000", label="0
+{0: 2}
+[2]"]
+430 -> 431 [labeldistance=2.5, labelangle=45, headlabel="2"]
+432 [color="#F4B80A", label="oldpeak
+{0: 1, 1: 1}
+[1, 1]"]
+433 [color="#008000", label="0
+{0: 1}
+[1]"]
+432 -> 433 [labeldistance=2.5, labelangle=45, headlabel="2"]
+434 [color="#008000", label="1
+{1: 1}
+[1]"]
+432 -> 434 [labeldistance=2.5, labelangle=45, headlabel="0"]
+430 -> 432 [labeldistance=2.5, labelangle=45, headlabel="1"]
+435 [color="#008000", label="0
+{0: 1}
+[1]"]
+430 -> 435 [labeldistance=2.5, labelangle=45, headlabel="0"]
+428 -> 430 [labeldistance=2.5, labelangle=45, headlabel="0"]
+424 -> 428 [labeldistance=2.5, labelangle=45, headlabel="1"]
+436 [color="#F4B80A", label="thalach
+{0: 3, 1: 1}
+[3, 1]"]
+437 [color="#008000", label="0
+{0: 3}
+[3]"]
+436 -> 437 [labeldistance=2.5, labelangle=45, headlabel="2"]
+438 [color="#008000", label="1
+{1: 1}
+[1]"]
+436 -> 438 [labeldistance=2.5, labelangle=45, headlabel="1"]
+424 -> 436 [labeldistance=2.5, labelangle=45, headlabel="0"]
+422 -> 424 [labeldistance=2.5, labelangle=45, headlabel="2"]
+439 [color="#008000", label="0
+{0: 28}
+[28]"]
+422 -> 439 [labeldistance=2.5, labelangle=45, headlabel="1"]
+440 [color="#F4B80A", label="oldpeak
+{0: 40, 1: 2}
+[2, 2, 38]"]
+441 [color="#F4B80A", label="sex
+{0: 1, 1: 1}
+[1, 1]"]
+442 [color="#008000", label="1
+{1: 1}
+[1]"]
+441 -> 442 [labeldistance=2.5, labelangle=45, headlabel="1"]
+443 [color="#008000", label="0
+{0: 1}
+[1]"]
+441 -> 443 [labeldistance=2.5, labelangle=45, headlabel="0"]
+440 -> 441 [labeldistance=2.5, labelangle=45, headlabel="2"]
+444 [color="#008000", label="0
+{0: 2}
+[2]"]
+440 -> 444 [labeldistance=2.5, labelangle=45, headlabel="1"]
+445 [color="#F4B80A", label="thalach
+{0: 37, 1: 1}
+[25, 11, 2]"]
+446 [color="#008000", label="0
+{0: 25}
+[25]"]
+445 -> 446 [labeldistance=2.5, labelangle=45, headlabel="2"]
+447 [color="#F4B80A", label="chol
+{0: 10, 1: 1}
+[3, 4, 4]"]
+448 [color="#008000", label="0
+{0: 3}
+[3]"]
+447 -> 448 [labeldistance=2.5, labelangle=45, headlabel="2"]
+449 [color="#F4B80A", label="sex
+{0: 3, 1: 1}
+[1, 3]"]
+450 [color="#008000", label="1
+{1: 1}
+[1]"]
+449 -> 450 [labeldistance=2.5, labelangle=45, headlabel="1"]
+451 [color="#008000", label="0
+{0: 3}
+[3]"]
+449 -> 451 [labeldistance=2.5, labelangle=45, headlabel="0"]
+447 -> 449 [labeldistance=2.5, labelangle=45, headlabel="1"]
+452 [color="#008000", label="0
+{0: 4}
+[4]"]
+447 -> 452 [labeldistance=2.5, labelangle=45, headlabel="0"]
+445 -> 447 [labeldistance=2.5, labelangle=45, headlabel="1"]
+453 [color="#008000", label="0
+{0: 2}
+[2]"]
+445 -> 453 [labeldistance=2.5, labelangle=45, headlabel="0"]
+440 -> 445 [labeldistance=2.5, labelangle=45, headlabel="0"]
+422 -> 440 [labeldistance=2.5, labelangle=45, headlabel="0"]
+414 -> 422 [labeldistance=2.5, labelangle=45, headlabel="0"]
+253 -> 414 [labeldistance=2.5, labelangle=45, headlabel="2"]
+454 [color="#F4B80A", label="fbs
+{0: 11, 1: 8, 2: 3, 3: 2}
+[4, 20]"]
+455 [color="#F4B80A", label="trestbps
+{1: 2, 3: 2}
+[2, 2]"]
+456 [color="#008000", label="3
+{3: 2}
+[2]"]
+455 -> 456 [labeldistance=2.5, labelangle=45, headlabel="2"]
+457 [color="#008000", label="1
+{1: 2}
+[2]"]
+455 -> 457 [labeldistance=2.5, labelangle=45, headlabel="1"]
+454 -> 455 [labeldistance=2.5, labelangle=45, headlabel="1"]
+458 [color="#F4B80A", label="sex
+{0: 11, 1: 6, 2: 3}
+[15, 5]"]
+459 [color="#F4B80A", label="age
+{0: 6, 1: 6, 2: 3}
+[3, 4, 3, 5]"]
+460 [color="#F4B80A", label="thalach
+{0: 1, 2: 2}
+[1, 1, 1]"]
+461 [color="#008000", label="0
+{0: 1}
+[1]"]
+460 -> 461 [labeldistance=2.5, labelangle=45, headlabel="2"]
+462 [color="#008000", label="2
+{2: 1}
+[1]"]
+460 -> 462 [labeldistance=2.5, labelangle=45, headlabel="1"]
+463 [color="#008000", label="2
+{2: 1}
+[1]"]
+460 -> 463 [labeldistance=2.5, labelangle=45, headlabel="0"]
+459 -> 460 [labeldistance=2.5, labelangle=45, headlabel="4"]
+464 [color="#F4B80A", label="thalach
+{0: 1, 1: 3}
+[2, 1, 1]"]
+465 [color="#008000", label="1
+{1: 2}
+[2]"]
+464 -> 465 [labeldistance=2.5, labelangle=45, headlabel="2"]
+466 [color="#008000", label="0
+{0: 1}
+[1]"]
+464 -> 466 [labeldistance=2.5, labelangle=45, headlabel="1"]
+467 [color="#008000", label="1
+{1: 1}
+[1]"]
+464 -> 467 [labeldistance=2.5, labelangle=45, headlabel="0"]
+459 -> 464 [labeldistance=2.5, labelangle=45, headlabel="2"]
+468 [color="#F4B80A", label="trestbps
+{0: 2, 2: 1}
+[1, 2]"]
+469 [color="#008000", label="2
+{2: 1}
+[1]"]
+468 -> 469 [labeldistance=2.5, labelangle=45, headlabel="1"]
+470 [color="#008000", label="0
+{0: 2}
+[2]"]
+468 -> 470 [labeldistance=2.5, labelangle=45, headlabel="0"]
+459 -> 468 [labeldistance=2.5, labelangle=45, headlabel="1"]
+471 [color="#F4B80A", label="restecg
+{0: 2, 1: 3}
+[2, 1, 2]"]
+472 [color="#008000", label="0
+{0: 2}
+[2]"]
+471 -> 472 [labeldistance=2.5, labelangle=45, headlabel="2"]
+473 [color="#008000", label="1
+{1: 1}
+[1]"]
+471 -> 473 [labeldistance=2.5, labelangle=45, headlabel="1"]
+474 [color="#008000", label="1
+{1: 2}
+[2]"]
+471 -> 474 [labeldistance=2.5, labelangle=45, headlabel="0"]
+459 -> 471 [labeldistance=2.5, labelangle=45, headlabel="0"]
+458 -> 459 [labeldistance=2.5, labelangle=45, headlabel="1"]
+475 [color="#008000", label="0
+{0: 5}
+[5]"]
+458 -> 475 [labeldistance=2.5, labelangle=45, headlabel="0"]
+454 -> 458 [labeldistance=2.5, labelangle=45, headlabel="0"]
+253 -> 454 [labeldistance=2.5, labelangle=45, headlabel="1"]
+0 -> 253 [labeldistance=2.5, labelangle=45, headlabel="0"]
+}
